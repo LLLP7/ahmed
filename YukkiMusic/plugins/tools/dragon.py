@@ -1,4 +1,4 @@
-from YukkiMusic.utils.database import is_music_playing, music_off
+From YukkiMusic.utils.database import is_music_playing, music_off
 from strings import get_command
 import asyncio
 from strings.filters import command
@@ -69,7 +69,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=f"https://t.me/RRRJ6"),
                 ],
             ]
         ),
@@ -85,18 +85,18 @@ async def khalid(client: Client, message: Message):
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك{message.from_user.mention}\n\nيـوزرك @{message.from_user.username}\n\nالايدي {message.from_user.id}\n\nايـدي الـجـروب{message.chat.id}""", 
-        reply_markup=InlineKeyboardMarkup(
+        reply_muarkup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=f"https://t.me/RRRJ6"),
                 ],
             ]
         ),
     )
     
 @app.on_message(
-    command(["قول"])
+    command(["كول"])
     & filters.group
     & ~filters.edited
 )
@@ -119,7 +119,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=f"https://t.me/RRRJ6"),
                 ],
             ]
         ),
@@ -133,14 +133,14 @@ async def khalid(client: Client, message: Message):
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆""",
+        caption=f"""Welcome To a 𝘍𝘪𝘶𝘯𝘺""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                InlineKeyboardButton("DeV", url=f"https://t.me/LLL7P"),
                 ],[
                 InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=f"https://t.me/RRRJ6"),
                 ]
             ]
         ),
@@ -154,12 +154,12 @@ async def khalid(client: Client, message: Message):
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""[𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆 𝒇𝒐𝒓 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑩𝒐𝒕𝒔](https://t.me/yy8gg)""",
+        caption=f"""[welcome To a 𝘍𝘪𝘶𝘯𝘺](https://t.me/RRRJ6)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                        "𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                        "DeV", url=f"https://t.me/LLL7P"),
             ],[
                 InlineKeyboardButton("✚ أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
