@@ -57,15 +57,15 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("YY8GG")
-                await self.one.join_chat("YY8GGX")
-                await self.one.join_chat("alhajji_Support")
+                await self.one.join_chat("RRRJ6")
+                await self.one.join_chat("NLLNBOTS")
+                await self.one.join_chat("ZZZZ7LZ")
             except:
                 pass
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "تم تنصيب سورس دراكون بنجاح"
+                    config.LOG_GROUP_ID, "اشتغل السيد"
                 )
             except:
                 LOGGER(__name__).error(
@@ -88,9 +88,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("YY8GG")
-                await self.two.join_chat("YY8GGX")
-                await self.two.join_chat("ALHAJJI_Support")
+                await self.two.join_chat("RRRJ6")
+                await self.two.join_chat("ZZZZ7LZ")
+                await self.two.join_chat("NLLNBOTS")
             except:
                 pass
             assistants.append(2)
