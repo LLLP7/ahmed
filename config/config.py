@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/yy8gg"
+    "SUPPORT_CHANNEL", "https://t.me/RRRJ6"
 )  # Example:- https://t.me/yy8gg
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/alhajji_support"
+    "SUPPORT_GROUP", None
 )  # Example:- https://t.me/alhajji_supprot
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -165,7 +165,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e81daa5ce955a0b822e95.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7226a6aa6d71ab21a1398.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
