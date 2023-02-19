@@ -29,13 +29,13 @@ services:
       - key: MONGO_DB_URI
         sync: false
       - key: LOG_GROUP_ID
-        sync: fales
+        sync: false
       - key: OWNER_ID
-        sync: fales
+        sync: false
       - key: SUPPORT_CHANNEL
         sync: false
       - kay: UPSTREAM_REPO
-      - sync: fales
+      - sync: false
         fromDatabase:
           name: postgres
           property: connectionString   
