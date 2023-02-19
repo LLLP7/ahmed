@@ -15,13 +15,11 @@ services:
     branch: master
     envVars:
       - key: MUSIC_BOT_NAME
-        sync: false
+        value: Linda music
       - key: APP_ID 
         sync: false
       - key: API_HASH 
         sync: false
-      - key: ENV 
-        value: ANYTHING
       - key: STRING_SESSION
         sync: false
       - key: BOT_TOKEN
