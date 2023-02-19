@@ -12,7 +12,7 @@ services:
     startCommand: bash start
     region: frankfurt
     repo: https://github.com/LLLP7/ahmed      
-    branch: 313
+    branch: master
     envVars:
       - key: MUSIC_BOT_NAME
         sync: false
